@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @font-face {
+      font-family: 'HeaderFont';
+      src: url('fonts/Vintaface-Regular.otf') format('truetype');
+    }
+
+    @font-face {
+     font-family: 'BodyFont';
+     src: url('fonts/Avenue\ de\ Madison.ttf') format('truetype');
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+     font-family: 'HeaderFont', sans-serif;
+    }
+
+    body, p {
+     font-family: 'BodyFont', sans-serif;
+    }
+
+    body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     background: #fff;
+     color: #000;
+    }
+
+    .animated-title {
+     font-size: 4rem;
+     margin-top: 50px;
+     animation: fadeInSlide 2s ease-out forwards;
+     opacity: 0;
+    }
+
+    @keyframes fadeInSlide {
+     0% {
+       opacity: 0;
+       transform: translateY(-30px);
+     }
+     100% {
+       opacity: 1;
+       transform: translateY(0);
+     }
+    }
+</style>
+<body>
+  <h1 class="animated-title custom-font">miniedles</h1>
+
+</body>
+</html>
