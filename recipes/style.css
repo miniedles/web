@@ -8,6 +8,11 @@
   src: url('fonts/DK-Jambo.otf') format('opentype'); 
 }
 
+@font-face {
+  font-family: 'Jambo';
+  src: url('fonts/DK\ Jambo.otf') format('opentype');
+}
+
 .header-text {
   font-family: 'HeaderFont', sans-serif;
 }
@@ -266,8 +271,11 @@ ul {
 }
 
 .ingredients-list {
+  font-family: 'Jambo';
+  font-size: 24px;
+  color: white;
   list-style-position: inside;
   padding-left: 0;
   margin-left: 0;
-  text-align: center; 
+  text-align: center;
 }
