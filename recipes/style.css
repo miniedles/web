@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'BodyFont';
-  src: url('fonts/DK\ Jambo.otf') format('truetype');
+  src: url('fonts/DK-Jambo.otf') format('opentype'); 
 }
 
 .header-text {
