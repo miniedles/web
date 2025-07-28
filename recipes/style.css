@@ -24,7 +24,7 @@ body {
   background: #bf99ab;
   text-align: center;
   font-family: 'BodyFont', sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .animated-title {
@@ -241,4 +241,26 @@ body {
 
 .home-button:hover {
   transform: scale(1.1);
+}
+
+.image-row {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin-top: 30px;
+}
+
+.image-row img {
+  width: auto; 
+  height: auto;
+  border-radius: 12px; 
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  font-family: 'BodyFont';
+  font-size: 24px;
+  color: white;
 }
