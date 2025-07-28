@@ -264,3 +264,10 @@ ul {
   font-size: 24px;
   color: white;
 }
+
+.ingredients-list {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center; 
+}
