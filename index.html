@@ -21,20 +21,20 @@
   <h1 class="animated-title">miniedles</h1>
   <hr style="border: none; height: 8px; background-color: white; width: 60%; margin: 1px auto;">
   <p class="body-text">Hello there!</p>
-  <p class="body-text">Down here I got a few buttons for you to click.</p>
-  <p class="body-text">You can find my social media accounts below and recipes I post.</p>
+  <p class="body-text">This is my website that I have built alone.</p>
+  <p class="body-text">You can find more stuff about me below.</p>
   <p class="body-text">Hope you have fun checking it out :D</p>
+
+  <button class="recipe-toggle">Recipes</button>
+<div class="recipe-links" id="recipelinks">
+  <a href="recipes/chocchipcookie.html">Chocolate Chip Cookies</a>
+</div>
 
   <button class="social-toggle">Social Media</button>
 <div class="social-links" id="socialLinks">
   <a href="https://youtube.com/@miniedles" target="_blank">YouTube</a>
   <a href="https://tiktok.com/@miniedles" target="_blank">TikTok</a>
   <a href="https://twitch.tv/miniedles" target="_blank">Twitch</a>
-</div>
-
-<button class="recipe-toggle">Recipes</button>
-<div class="recipe-links" id="recipelinks">
-  <a href=""></a>
 </div>
 
 <script>
@@ -45,5 +45,15 @@
     socialLinks.classList.toggle('active');
   });
 </script>
+
+<script>
+  const recipeToggle = document.querySelector('.recipe-toggle');
+  const recipeLinks = document.getElementById('recipelinks');
+
+  recipeToggle.addEventListener('click', () => {
+    recipeLinks.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>
