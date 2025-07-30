@@ -16,6 +16,9 @@
   font-family: 'BodyFont', sans-serif;
   color: white;
   font-size: 30px;
+  white-space: normal;
+  word-wrap: break-word;
+  font-size: clamp(14px, 4vw, 22px);
 }
 
 body {
